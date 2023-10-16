@@ -6,7 +6,6 @@
     <style>
         #maindiv 
         {
-            background-color: aliceblue;
             width: 800px;
             height: 500px;
             display: flex;
@@ -22,19 +21,16 @@
             height: 120px;
             margin-left: 10px;
             margin-top: 10px;
-            background-color: dodgerblue;
         }
 
         #webdiv 
         {
-            background-color:antiquewhite;
             width: 1000px;
             margin-left: auto;
             margin-right: auto;
         }
         #footerdiv
         {
-            background-color: aliceblue;
             height: 50px;
 
             display:flex;
@@ -47,14 +43,15 @@
         }
         #bodydiv
         {
-            background-color:lightcoral;
 
             display:flex;
             flex-direction:row;
         }
         #leftdiv
         {
-            background-color:blueviolet;
+            display:flex;
+            flex-direction:column;
+
         }
         #rightdiv
         {
@@ -68,6 +65,27 @@
             border-radius: 10px;
             width: 480px;
         }
+        #updiv
+        {
+            border-style:solid;
+            border-width:2px;
+            border-color:darkgray;
+            border-radius:10px;
+        }
+        #downdiv 
+        {
+            border-style: solid;
+            border-width: 2px;
+            border-color: darkgray;
+            border-radius: 10px;
+        }
+
+        #title1
+        {
+            font-size: 20pt;
+            font-weight: bold;
+            border-radius:5px;
+        }
     </style>
 </head>
 
@@ -75,11 +93,46 @@
 
 <body>
     <div id="webdiv">
-        web page
+
+        <div id="headerdiv" style="display:flex;flex-direction:row;justify-content:center;align-items:center;">
+            <div style="font-size:30pt;color:dodgerblue;text-transform:uppercase;font-weight:bold;">
+                I love programming!
+            </div>
+
+            <div>
+                <img src="a.svg" style="height:100px;"/>
+            </div>
+        </div>
 
         <div id="bodydiv">
             <div id="leftdiv">
-                left
+                <div id="updiv" style="width:480px;">
+
+                    <span id="title1">
+                        What i already learned:
+                    </span>
+                    
+                    <ul>
+                        <li>C#</li>
+                        <li>C# Entity Framework</li>
+                        <li>Database Sqllite</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+
+                </div>
+
+                <div id="downdiv" style="width:480px;">
+                    <span id="title2" style="font-size:20px;font-weight:bold;">
+                        What I am going to learn next:
+                    </span>
+
+                    <ol>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>ASP.NET MVC</li>
+                        <li>WEB REST API</li>
+                    </ol>
+                </div>
             </div>
 
             <div id="rightdiv">
