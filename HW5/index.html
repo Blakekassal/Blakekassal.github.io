@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>MIS3033 HW5 Kassal Blake</title>
+
+    <style>
+        #maindiv 
+        {
+            width:1000px;
+            display: flex;
+            flex-direction:column;
+        }
+        #Header 
+        {
+            background-color: antiquewhite;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items:center;
+            
+        }
+        #Body 
+        {
+            background-color:aliceblue;
+            width:1000px;
+            height:300px;
+            display:flex;
+            flex-direction:row;
+        }
+        #Footer 
+        {
+            width:1000px;
+            height:50px;
+            line-height:50px;
+            background-color:#073c76;
+            color:white;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;
+        }
+    </style>
+</head>
+
+<body>
+<div id="maindiv">
+    <div id="Header">
+        <div style="margin-right:5px;"> 
+        Hi, Blake Kassal 
+        </div>
+
+        <div>
+            <img src="head1.png" style="height:40px;border-radius:50%;margin-right:5px;"/> 
+        </div>
+
+        <div style="margin-right:5px;">
+        <button style="height:25px;">Logout</button>
+        </div>
+    </div>
+
+    <div id="Body">
+        <div style="width:300px;height:300px;">
+            <img src="book.jpg" style="width:200px;"/>
+            <br/>
+            <span style="font-weight:bolder;">C# 10 and .NET 6</span>
+        </div>
+
+        <div style="width:400px;height:300px;margin-top:5px;">
+            <div style="font-weight:bold">
+                $49.99
+            </div>
+
+            <div>
+                Qty: <input type="text"style="width:150px;"/>
+            </div>
+
+            <div>
+                <button>Add</button>
+            </div>
+        </div>
+
+        <div style="width:300px;background-color:cornflowerblue;height:300px;">
+            <span style="font-weight:bold">Totalcost: $89.98</span>
+        </div>
+    </div>
+
+    <div id="Footer">
+        Developed by Blake Kassal for MIS3033 Homework
+    </div>
+</div>
+</body>
+
+</html>
