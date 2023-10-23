@@ -2,16 +2,140 @@
 
 <head>
     <title>[] Blake Kassal October 23,2023 Exam 2 Practrice</title>
+
+    <style>
+        #main
+        {
+            display:flex;
+            flex-direction:column;
+            width:1200px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        #header 
+        {
+            display: flex;
+            color: dodgerblue;
+            font-size: 20pt;
+            font-weight: bold;
+        }
+        #left
+        {
+            display:flex;
+            flex-direction:column;
+            text-align: center;
+            justify-content:center;
+            align-items:center;
+            width:400px;
+            margin-top:20px;
+            margin-bottom:30px;
+        }
+        #footertop
+        {
+            background-color:#ededed;
+        }
+        #footerbottom
+        {
+            background-color:#faf7f7;
+            text-align:center;
+            color:dimgrey;
+        }
+    </style>
 </head>
 
 <body>
+    <div id="main">
+        <div id="header">
+            Blake Kassal's Website
+        </div>
 
-    <img src="static/head1.png" style="width:100px;"/>
-    <img src="static/email.png" style="width:100px;"/>
-    <img src="static/linkedin.png" style="width:100px;"/>
-    <img src="static/twitter.png" style="width:100px;"/>
-    <img src="static/instagram.png" style="width:100px;"/>
+        <div id="middle" style="display:flex; flex-direction:row;">
+            <div id="left">
+                <div><img src="static/head1.png" style="width:200px;border-radius:50%;" /></div>
 
+                <div style="font-size:30px;margin-top:5px;margin-bottom:5px;">Blake Kassal</div>
+
+                <div style="color:dimgrey; font-size:20px;">
+                    Student in Management Information Systems<br />
+                    The University of Oklahoma
+                </div>
+
+                <div>
+                    <a href="mailto:blake.kassal@ou.edu" target="_blank"> <img src="static/email.png" style="width:30px;" /> </a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="static/linkedin.png" style="width:30px;" /> </a>
+                    <a href="https://twitter.com/" target="_blank"><img src="static/twitter.png" style="width:30px;" /> </a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="static/instagram.png" style="width:30px;" /> </a>
+                </div>
+             </div>
+            
+            <div id="Right">
+                <div id="RT">
+                    <span style="font-weight:bold; font-size:30px">Biography</span>
+                    <br/><br/>
+                    I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market.
+                    <br/><br/>
+                    My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.
+                    <br/><br/>
+                    For more information, please refer to my <span style="color:dodgerblue;font-weight:bold;">CV</span>.
+                    <br/><br/>
+                </div>
+                <div id="RB" style="display:flex; flex-direction:row;">
+                    <div id="BL" style="margin-right:10px;">
+                        <span style="font-weight:bold; font-size:30px">Interests</span>
+                        <ol>
+                            <li>
+                                Analyst/Programmer
+                            </li>
+                            <li>
+                                Business Analyst
+                            </li>
+                            <li>
+                                Database Administration
+                            </li>
+                            <li>
+                                Web Developer
+                            </li>
+                            <li>
+                                Data Scientists
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div id="BR">
+                        <span style="font-weight:bold; font-size:30px">Education</span>
+                        <ul>
+                            <li>
+                                M.S. in Management Information Systems, 2024<br/>
+                                The University of Oklahoma
+                            </li>
+                            <li>
+                                B.E. in Management Information Systems, 2022<br/>
+                                The University of Oklahoma
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="footertop">
+            <span style="font-weight:bold; font-size:30px;">Recent News</span>
+            <br/>
+            <ul>
+                <li>Learning C# Web Application Design</li>
+                <li>Learning C# WPF</li>
+            </ul>
+        </div>
+        <div id="footerbottom">
+            Designed and published by Blake Kassal
+        </div>
+
+
+    </div>
+
+
+        
+    
 </body>
 
 </html>
